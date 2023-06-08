@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+button {
+    margin-top:1rem;
+    padding: 1rem 3rem;
+    background-color: rgb(2, 2, 58);
+    color: rgb(249, 247, 247);
+    font-size: 12px;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button:hover {
+    color: aqua;
+    box-shadow: 2px 2px 1px aqua;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.room  {
+    width:500px;
+    margin: 0 auto;
+}
+.chat-app {
+    width:500px;
+    margin:0 auto;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+input {
+    height: 1.9rem;
+    border-radius: 0.5rem;
+    border:0.5px solid grey;
+    width:300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+    height: 3rem;
+    font-size: 2rem;
+    color: white;
+    background-color: blueviolet;
+    align-items: center;
+    padding:2rem;
+    text-align: center;
+    font-family:Verdana;
+    font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.message {
+    margin:1rem;
+}
+.user {
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: Arial;
+}
+input:focus {
+    border: 1px solid aqua;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.new-message-input {
+    height: 2.5rem;
+    width:70%;
+}
+
+.center-align {
+    align-items: center;
+    text-align: center;
 }
